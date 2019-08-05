@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tell_U%28r%29_WORLD">
+      <UniqueIdentifier>{77b201b9-1b4c-463d-9c45-9259883340e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WORLD">
+      <UniqueIdentifier>{c6d2f352-c6c5-4207-8355-c58797dfcbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WORLD\src">
+      <UniqueIdentifier>{aab96fb7-bd27-47f0-85ce-35307af0271f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tell_U%28r%29_WORLD\source">
+      <UniqueIdentifier>{9e0ef6d6-a3f7-4d77-b88e-89fdd47c8b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tell_U%28r%29_WORLD\header">
+      <UniqueIdentifier>{f83e5632-4829-4099-a516-60baf194c732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WORLD\src\world">
+      <UniqueIdentifier>{a7b73bea-b32c-44b7-a471-d3e9f74308fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\stdafx.cpp">
+      <Filter>Tell_U%28r%29_WORLD\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Tell_U(r)_WORLD.cpp">
+      <Filter>Tell_U%28r%29_WORLD\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Tell_U(r)_WORLD_main.cpp">
+      <Filter>Tell_U%28r%29_WORLD\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\cheaptrick.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\codec.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\common.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\d4c.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\dio.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\fft.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\harvest.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\matlabfunctions.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\stonemask.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\World\src\synthesis.cpp">
+      <Filter>WORLD\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\ExternalReference.h">
+      <Filter>Tell_U%28r%29_WORLD\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\stdafx.h">
+      <Filter>Tell_U%28r%29_WORLD\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\targetver.h">
+      <Filter>Tell_U%28r%29_WORLD\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Tell_U(r)_WORLD.h">
+      <Filter>Tell_U%28r%29_WORLD\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\cheaptrick.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\codec.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\common.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\constantnumbers.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\d4c.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\dio.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\fft.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\harvest.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\macrodefinitions.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\matlabfunctions.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\stonemask.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\World\src\world\synthesis.h">
+      <Filter>WORLD\src\world</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
