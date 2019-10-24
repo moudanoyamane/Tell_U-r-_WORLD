@@ -6,24 +6,23 @@
 #include "../Src/ExternalReference.h"
 
 
-typedef struct
-{
-	std::string flagName;
-	double flagValue;
-	int defaultValue;
-	int maxValue;
-	int minValue;
-
-}_flagValue;
-
 namespace Tell_Ur_WORLD
 {
-	int makeVoiceParameterByWorld(std::string& inputWaveFile, int HarvestFlag);
-	void InitializeFlags(std::vector<_flagValue>& flagValues);
-	void setFlag(std::string& flags, std::vector<_flagValue>& flagValues);
-	void process_breathiness(int consonantEnd, std::vector<std::vector<double>>& aperiodicity, int BflagNum, int YflagNum);
-	void process_gFlag(int& fs, int& fft_size, std::vector<std::vector<double>>& spectrogram, double& gFlagNum);
-	void process_PitchBend(int& consonantEnd, double pitchBendRate, double& frame_period, ARGUMENTS& Arg, std::vector<double>& f0);
-	void relayToSynthesizer(int consonantEnd, double& pitchBendRate, double& velocity, WorldAnalyzedParameters& WP, std::vector<double>& wdata);
-	void process_Volume(int& consonantEnd, std::vector<double>& wdata, double& volume, double& PflagNum);
+	struct _flagValue
+	{
+		std::string flag_name;
+		double flag_value;
+		int default_value;
+		int max_value;
+		int min_value;
+	};
+
+	int MakeVoiceParameterByWorld(std::string& input_wavefile, int harvest_flag);
+	void InitializeFlags(std::vector<Tell_Ur_WORLD::_flagValue>& flag_values);
+	void SetFlag(std::string& flags, std::vector<Tell_Ur_WORLD::_flagValue>& flag_values);
+	void AperiodicityModifiction(int consonant_end, std::vector<std::vector<double>>& aperiodicity, int B_flag_num, int Y_flag_num);
+	void SpectrumModification(int& fs, int& fft_size, std::vector<std::vector<double>>& spectrogram, double& g_flag_num);
+	void F0Modification(int& consonant_end, double pitch_bend_rate, double& frame_period, eight_c_and_c::Tool2Arguments& tool2_argments, std::vector<double>& f0);
+	void RelayToSynthesizer(int consonant_end, const double& pitch_bend_rate, const double& velocity, jewelwasp::VoiceParameters& voice_parameters, std::vector<double>& wdata);
+	void process_Volume(const int& consonant_end, std::vector<double>& wdata, const double& volume, const double& P_flag_num);
 }

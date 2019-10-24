@@ -8,7 +8,7 @@
 
 #include "../Src/stdafx.h"
 
-#include "../../wavefileio/Src/WaveFileIO.h"
-#include "../../8c-c/Src/8C&C.h"
+#include "..//..//wavefile_io/Src/wavefile_io.h"
+#include "..//..//eight_c_and_c/Src/eight_c_and_c.h"
 #include "../../jewelwasp/Src/JewelWasp.h"
-#include "../../jewelwasp/Src/utilizeWORLD.h"
+#include "../../jewelwasp/Test/utilizeWORLD.h"
