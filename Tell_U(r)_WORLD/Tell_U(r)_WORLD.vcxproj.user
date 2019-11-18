@@ -1,23 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LocalDebuggerCommandArguments>
-    </LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"F:\アプリケーション\UTAU\voice\北海道めろん\A#4\_てぃてぃとぅたててぃて.wav" "F:\アプリケーション\UTAU\songs\tell_your_world_demo\tell_your_world_demo.cache\test.wav" "A#4" "100" "" "3247.051" "550" "375.0" "-583.333" "100" "0" "0Q120"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LocalDebuggerCommandArguments>
-    </LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"F:\アプリケーション\UTAU\voice\北海道めろん\A#4\_てぃてぃとぅたててぃて.wav" "F:\アプリケーション\UTAU\songs\tell_your_world_demo\tell_your_world_demo.cache\test.wav" "A#4" "100" "" "3247.051" "550" "375.0" "-583.333" "100" "0" "0Q120"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LocalDebuggerCommandArguments>
-    </LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"F:\アプリケーション\UTAU\voice\北海道めろん\A#4\_てぃてぃとぅたててぃて.wav" "F:\アプリケーション\UTAU\songs\tell_your_world_demo\tell_your_world_demo.cache\test.wav" "A#4" "100" "" "3247.051" "550" "375.0" "-583.333" "100" "0" "0Q120"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>
-    </LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>"F:\アプリケーション\UTAU\voice\北海道めろん\A#4\_てぃてぃとぅたててぃて.wav" "F:\アプリケーション\UTAU\songs\tell_your_world_demo\tell_your_world_demo.cache\test.wav" "A#4" "100" "" "3247.051" "550" "375.0" "-583.333" "100" "0" "0Q120"</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
