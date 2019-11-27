@@ -387,7 +387,6 @@ namespace Tell_Ur_WORLD
 		int offset;
 
 		int f0_length = voice_parameters.f0[0].size();
-		voice_parameters.f0[0].resize(voice_parameters.f0[0].size() + 50);//“K“–
 
 		p_spectrogram.resize(voice_parameters.f0[0].size());
 		p_aperiodicity.resize(voice_parameters.f0[0].size());
